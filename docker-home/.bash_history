@@ -222,3 +222,14 @@ make
 make
 ./task 
 exit
+ls
+cd geant4-exercises/
+ls
+wget --http-user=student --http-password=DetectorAccelerator21   https://www.roma1.infn.it/~mancinit/geant4-exercises/code/task3a.tar.gz
+tar xzf task3a.tar.gz 
+ls
+rm task.
+ls
+tar xzf task3a.tar.gz 
+ls
+exit

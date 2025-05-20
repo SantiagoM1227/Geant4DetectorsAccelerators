@@ -1,7 +1,7 @@
 CMakeFiles/task.dir/src/PrimaryGeneratorAction.cc.o: \
- /root/geant4-exercises/task2/src/PrimaryGeneratorAction.cc \
+ /root/geant4-exercises/task3/src/PrimaryGeneratorAction.cc \
  /usr/include/stdc-predef.h \
- /root/geant4-exercises/task2/src/../include/PrimaryGeneratorAction.hh \
+ /root/geant4-exercises/task3/include/PrimaryGeneratorAction.hh \
  /opt/geant4/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /opt/geant4/include/Geant4/G4ParticleTable.hh \
  /opt/geant4/include/Geant4/G4ParticleDefinition.hh \
