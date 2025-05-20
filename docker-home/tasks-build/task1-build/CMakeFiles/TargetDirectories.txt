@@ -1,0 +1,7 @@
+/root/tasks-build/task1-build/CMakeFiles/task.dir
+/root/tasks-build/task1-build/CMakeFiles/edit_cache.dir
+/root/tasks-build/task1-build/CMakeFiles/rebuild_cache.dir
+/root/tasks-build/task1-build/CMakeFiles/list_install_components.dir
+/root/tasks-build/task1-build/CMakeFiles/install.dir
+/root/tasks-build/task1-build/CMakeFiles/install/local.dir
+/root/tasks-build/task1-build/CMakeFiles/install/strip.dir

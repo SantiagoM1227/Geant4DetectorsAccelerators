@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/root/geant4-exercises/B4a-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

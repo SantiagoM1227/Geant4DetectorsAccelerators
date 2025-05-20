@@ -1,0 +1,7 @@
+/vis/enable
+/vis/viewer/rebuild
+exit
+bc400 -> AddElement(elH,8.5*perCent);
+bc400->AddElement(elH,8.5*perCent);
+exit
+

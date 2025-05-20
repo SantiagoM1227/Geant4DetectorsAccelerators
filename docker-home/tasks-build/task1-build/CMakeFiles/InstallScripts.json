@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/root/tasks-build/task1-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

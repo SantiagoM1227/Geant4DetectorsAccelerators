@@ -1,0 +1,7 @@
+/root/AnaEx01/CMakeFiles/AnaEx01.dir
+/root/AnaEx01/CMakeFiles/edit_cache.dir
+/root/AnaEx01/CMakeFiles/rebuild_cache.dir
+/root/AnaEx01/CMakeFiles/list_install_components.dir
+/root/AnaEx01/CMakeFiles/install.dir
+/root/AnaEx01/CMakeFiles/install/local.dir
+/root/AnaEx01/CMakeFiles/install/strip.dir
