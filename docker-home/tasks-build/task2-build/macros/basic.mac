@@ -3,4 +3,7 @@
 #
 # Run it using "./task macros/basic.mac"
 /run/initialize
+/gun/particle geantino
+/gun/direction 1 0 0
+/tracking/verbose 1
 /run/beamOn 1

@@ -3,28 +3,18 @@ services:
       image: "carlomt/xeyes"
       stdin_open: true 
       tty: true
-      volumes:
-         - X11-unix:/tmp/.X11-unix      
-      environment:
-         - DISPLAY=${DOCKERDISPLAY}
+         
    gears:
       image: "carlomt/gears"
       stdin_open: true 
-      tty: true
-      volumes:
-         - X11-unix:/tmp/.X11-unix     
-      environment:
-         - DISPLAY=${DOCKERDISPLAY}    
+      tty: true   
       privileged: true     
    geant4:
       # user: $(id -u):$(id -g)
       image: "carlomt/geant4course"
       stdin_open: true 
-      tty: true
-      environment:
-         - DISPLAY=${DOCKERDISPLAY}        
+      tty: true   
       volumes:
-         - X11-unix:/tmp/.X11-unix
          - ./geant4-datasets/:/opt/geant4/data/:ro
          - ./geant4-source/:/usr/local/geant4/
          - ./docker-home/:/root/
@@ -54,11 +44,8 @@ services:
    test:
       image: "carlomt/geant4course"
       stdin_open: true 
-      tty: true
-      environment:
-         - DISPLAY=${DOCKERDISPLAY}        
+      tty: true    
       volumes:
-         - X11-unix:/tmp/.X11-unix
          - ./geant4-datasets/:/opt/geant4/data/:ro
          - ./geant4-source/:/usr/local/geant4/
          - ./docker-home/:/root/
@@ -75,12 +62,9 @@ services:
    root:
       image: "rootproject/root:6.26.14-ubuntu20.04"
       stdin_open: true 
-      tty: true
-      environment:
-         - DISPLAY=${DOCKERDISPLAY}                 
+      tty: true              
       entrypoint: ["/usr/bin/bash", "-l"]
-      volumes:
-         - X11-unix:/tmp/.X11-unix        
+      volumes:        
          - ./docker-home:/root
          - ./geant4-exercises:/root/geant4-exercises                  
       working_dir: /root
@@ -93,11 +77,5 @@ volumes:
      external: true
   docker-home:
      external: true
-  X11-unix:
-     driver: local
-     driver_opts:
-        type: 'none'
-        o: 'bind'
-        device: '/tmp/.X11-unix'
-
+  
 
