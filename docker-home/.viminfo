@@ -11,6 +11,8 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:q
+|2,0,1747745067,,"q"
 :wq
 |2,0,1747310991,,"wq"
 :i
@@ -41,38 +43,54 @@
 |3,0,36,0,1,0,1747239804,";"
 
 # File marks:
-'0  98  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,48,98,10,1747310991,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
-'1  113  3  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,49,113,3,1747310951,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+'0  241  0  ~/tasks-build/task3-build/log.txt
+|4,48,241,0,1747745067,"~/tasks-build/task3-build/log.txt"
+'1  98  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,49,98,10,1747310991,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 '2  113  3  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,50,113,3,1747310951,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
-'3  109  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,51,109,10,1747310730,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+'3  113  3  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,51,113,3,1747310951,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 '4  109  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,52,109,10,1747310730,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 '5  109  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,53,109,10,1747310730,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 '6  109  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,54,109,10,1747310730,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
-'7  116  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,55,116,0,1747310553,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+'7  109  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,55,109,10,1747310730,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 '8  116  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,56,116,0,1747310553,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 '9  116  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,57,116,0,1747310553,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 
 # Jumplist (newest first):
+-'  241  0  ~/tasks-build/task3-build/log.txt
+|4,39,241,0,1747745067,"~/tasks-build/task3-build/log.txt"
+-'  1  0  ~/tasks-build/task3-build/log.txt
+|4,39,1,0,1747745041,"~/tasks-build/task3-build/log.txt"
+-'  98  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,39,98,10,1747310991,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 -'  98  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,39,98,10,1747310991,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 -'  113  3  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,39,113,3,1747310971,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+-'  113  3  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,39,113,3,1747310971,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+-'  113  3  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,39,113,3,1747310951,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 -'  113  3  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,39,113,3,1747310951,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 -'  109  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,39,109,10,1747310765,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 -'  109  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,39,109,10,1747310765,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+-'  109  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,39,109,10,1747310765,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+-'  109  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,39,109,10,1747310765,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+-'  109  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,39,109,10,1747310730,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 -'  109  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,39,109,10,1747310730,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 -'  116  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
@@ -81,6 +99,14 @@
 |4,39,116,0,1747310629,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 -'  116  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,39,116,0,1747310629,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+-'  116  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,39,116,0,1747310629,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+-'  116  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,39,116,0,1747310629,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+-'  116  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,39,116,0,1747310629,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+-'  116  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,39,116,0,1747310553,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 -'  116  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,39,116,0,1747310553,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 -'  31  31  ~/geant4-exercises/task1/src/DetectorConstruction.cc
@@ -91,6 +117,14 @@
 |4,39,31,31,1747310480,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 -'  31  31  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,39,31,31,1747310480,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+-'  31  31  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,39,31,31,1747310480,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+-'  31  31  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,39,31,31,1747310480,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+-'  31  31  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,39,31,31,1747310480,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+-'  31  31  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,39,31,31,1747310480,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 -'  8  12  ~/tasks-build/task1-build/macros/ui.mac
 |4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
 -'  8  12  ~/tasks-build/task1-build/macros/ui.mac
@@ -123,6 +157,70 @@
 |4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
 -'  8  12  ~/tasks-build/task1-build/macros/ui.mac
 |4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
+-'  8  12  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
+-'  8  12  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
+-'  8  12  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
+-'  8  12  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
+-'  8  12  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
+-'  8  12  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
+-'  8  12  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
+-'  8  12  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
+-'  8  12  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
+-'  8  12  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
+-'  8  12  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
+-'  8  12  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
+-'  8  12  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
+-'  8  12  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
+-'  8  12  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
+-'  8  12  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,8,12,1747310431,"~/tasks-build/task1-build/macros/ui.mac"
+-'  1  0  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,1,0,1747310353,"~/tasks-build/task1-build/macros/ui.mac"
+-'  1  0  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,1,0,1747310353,"~/tasks-build/task1-build/macros/ui.mac"
+-'  1  0  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,1,0,1747310353,"~/tasks-build/task1-build/macros/ui.mac"
+-'  1  0  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,1,0,1747310353,"~/tasks-build/task1-build/macros/ui.mac"
+-'  1  0  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,1,0,1747310353,"~/tasks-build/task1-build/macros/ui.mac"
+-'  1  0  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,1,0,1747310353,"~/tasks-build/task1-build/macros/ui.mac"
+-'  1  0  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,1,0,1747310353,"~/tasks-build/task1-build/macros/ui.mac"
+-'  1  0  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,1,0,1747310353,"~/tasks-build/task1-build/macros/ui.mac"
+-'  1  0  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,1,0,1747310353,"~/tasks-build/task1-build/macros/ui.mac"
+-'  1  0  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,1,0,1747310353,"~/tasks-build/task1-build/macros/ui.mac"
+-'  1  0  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,1,0,1747310353,"~/tasks-build/task1-build/macros/ui.mac"
+-'  1  0  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,1,0,1747310353,"~/tasks-build/task1-build/macros/ui.mac"
+-'  1  0  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,1,0,1747310353,"~/tasks-build/task1-build/macros/ui.mac"
+-'  1  0  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,1,0,1747310353,"~/tasks-build/task1-build/macros/ui.mac"
+-'  1  0  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,1,0,1747310353,"~/tasks-build/task1-build/macros/ui.mac"
+-'  1  0  ~/tasks-build/task1-build/macros/ui.mac
+|4,39,1,0,1747310353,"~/tasks-build/task1-build/macros/ui.mac"
 -'  1  0  ~/tasks-build/task1-build/macros/ui.mac
 |4,39,1,0,1747310353,"~/tasks-build/task1-build/macros/ui.mac"
 -'  1  0  ~/tasks-build/task1-build/macros/ui.mac
@@ -159,112 +257,20 @@
 |4,39,31,31,1747242261,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 -'  31  31  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,39,31,31,1747242261,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+-'  31  31  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,39,31,31,1747242261,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
+-'  31  31  ~/geant4-exercises/task1/src/DetectorConstruction.cc
+|4,39,31,31,1747242261,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 -'  75  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,39,75,10,1747242216,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 -'  75  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
 |4,39,75,10,1747242216,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  75  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,75,10,1747242216,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  75  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,75,10,1747242216,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  75  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,75,10,1747242216,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  75  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,75,10,1747242216,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  75  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,75,10,1747241874,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  75  10  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,75,10,1747241874,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  69  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,69,0,1747241853,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  69  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,69,0,1747241853,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  69  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,69,0,1747241853,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  69  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,69,0,1747241853,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  69  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,69,0,1747241853,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  69  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,69,0,1747241853,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  69  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,69,0,1747241853,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  69  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,69,0,1747241853,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  69  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,69,0,1747241842,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  69  0  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,69,0,1747241842,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  78  36  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,78,36,1747241688,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  78  36  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,78,36,1747241688,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  78  36  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,78,36,1747241688,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  78  36  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,78,36,1747241688,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  78  36  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,78,36,1747241688,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  78  36  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,78,36,1747241688,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  78  36  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,78,36,1747241688,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  78  36  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,78,36,1747241688,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  78  36  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,78,36,1747241688,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  78  36  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,78,36,1747241688,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  78  36  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,78,36,1747241646,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  78  36  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,78,36,1747241646,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  73  34  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,73,34,1747241627,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  73  34  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,73,34,1747241627,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  73  34  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,73,34,1747241627,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  73  34  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,73,34,1747241627,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  73  34  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,73,34,1747241627,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  73  34  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,73,34,1747241627,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  73  34  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,73,34,1747241627,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  73  34  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,73,34,1747241627,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  73  34  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,73,34,1747241627,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  73  34  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,73,34,1747241627,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  73  34  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,73,34,1747241627,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  73  34  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,73,34,1747241627,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  73  34  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,73,34,1747241587,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  73  34  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,73,34,1747241587,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  111  13  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,111,13,1747241567,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  111  13  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,111,13,1747241567,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  111  13  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,111,13,1747241567,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  111  13  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,111,13,1747241567,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  111  13  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,111,13,1747241567,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  111  13  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,111,13,1747241567,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  111  13  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,111,13,1747241567,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
--'  111  13  ~/geant4-exercises/task1/src/DetectorConstruction.cc
-|4,39,111,13,1747241567,"~/geant4-exercises/task1/src/DetectorConstruction.cc"
 
 # History of marks within files (newest to oldest):
+
+> ~/tasks-build/task3-build/log.txt
+	*	1747745060	0
+	"	241	0
 
 > ~/geant4-exercises/task1/src/DetectorConstruction.cc
 	*	1747310990	0

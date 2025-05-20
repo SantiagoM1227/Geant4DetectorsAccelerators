@@ -668,4 +668,6 @@ CMakeFiles/task.dir/main.cc.o: /root/geant4-exercises/task3/main.cc \
  /opt/geant4/include/Geant4/G4ProductionCutsTable.hh \
  /opt/geant4/include/Geant4/G4MaterialCutsCouple.hh \
  /opt/geant4/include/Geant4/G4ProductionCuts.hh \
- /opt/geant4/include/Geant4/G4MCCIndexConversionTable.hh
+ /opt/geant4/include/Geant4/G4MCCIndexConversionTable.hh \
+ /opt/geant4/include/Geant4/QGSP_BIC.hh \
+ /opt/geant4/include/Geant4/G4VModularPhysicsList.hh

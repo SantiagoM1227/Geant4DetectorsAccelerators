@@ -13,7 +13,7 @@
 #include "PhysicsList.hh"
 
 // Task 3b.4: Include (temporarily if you want) header for QGSP
-// #include <QGSP.hh>
+#include <QGSP_BIC.hh>
 
 // Task 4b.1: Include the proper header to enable scoring manager
 
@@ -65,8 +65,8 @@ int main(int argc, char** argv)
   visManager->Initialize();
 
   // Task 3b.4: Replace (only temporarily) PhysicsList with QGSP
-  // runManager->SetUserInitialization(new QGSP());
-  runManager->SetUserInitialization(new PhysicsList());
+  runManager->SetUserInitialization(new QGSP_BIC());
+  //runManager->SetUserInitialization(new PhysicsList());
   
   // Task 1: See that we instantiate the detector construction here
   runManager->SetUserInitialization(new DetectorConstruction());
