@@ -399,6 +399,7 @@ CMakeFiles/task.dir/main.cc.o
  /opt/geant4/include/Geant4/PTL/VTask.hh
  /opt/geant4/include/Geant4/PTL/VUserTaskQueue.hh
  /opt/geant4/include/Geant4/PTL/detail/CxxBackports.hh
+ /opt/geant4/include/Geant4/QGSP_BIC.hh
  /opt/geant4/include/Geant4/Randomize.hh
  /opt/geant4/include/Geant4/evtdefs.hh
  /opt/geant4/include/Geant4/geomdefs.hh

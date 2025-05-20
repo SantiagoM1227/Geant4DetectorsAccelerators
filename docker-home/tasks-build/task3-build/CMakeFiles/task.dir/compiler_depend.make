@@ -398,6 +398,7 @@ CMakeFiles/task.dir/main.cc.o: /root/geant4-exercises/task3/main.cc \
   /opt/geant4/include/Geant4/PTL/VTask.hh \
   /opt/geant4/include/Geant4/PTL/VUserTaskQueue.hh \
   /opt/geant4/include/Geant4/PTL/detail/CxxBackports.hh \
+  /opt/geant4/include/Geant4/QGSP_BIC.hh \
   /opt/geant4/include/Geant4/Randomize.hh \
   /opt/geant4/include/Geant4/evtdefs.hh \
   /opt/geant4/include/Geant4/geomdefs.hh \
@@ -4538,6 +4539,8 @@ CMakeFiles/task.dir/src/StackingAction.cc.o: /root/geant4-exercises/task3/src/St
 /opt/geant4/include/Geant4/G4ParticleDefinition.hh:
 
 /opt/geant4/include/Geant4/PTL/TaskRunManager.hh:
+
+/opt/geant4/include/Geant4/QGSP_BIC.hh:
 
 /opt/geant4/include/Geant4/CLHEP/Random/RandBinomial.icc:
 
