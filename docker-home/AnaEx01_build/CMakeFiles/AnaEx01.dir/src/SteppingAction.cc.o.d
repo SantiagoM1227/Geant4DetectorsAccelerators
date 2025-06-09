@@ -2,8 +2,13 @@ CMakeFiles/AnaEx01.dir/src/SteppingAction.cc.o: \
  /root/AnaEx01/src/SteppingAction.cc /usr/include/stdc-predef.h \
  /root/AnaEx01/include/SteppingAction.hh \
  /opt/geant4/include/Geant4/G4UserSteppingAction.hh \
- /root/AnaEx01/include/DetectorConstruction.hh \
- /opt/geant4/include/Geant4/G4VUserDetectorConstruction.hh \
+ /root/AnaEx01/include/HistoManager.hh \
+ /opt/geant4/include/Geant4/G4AnalysisManager.hh \
+ /opt/geant4/include/Geant4/G4GenericAnalysisManager.hh \
+ /opt/geant4/include/Geant4/G4ToolsAnalysisManager.hh \
+ /opt/geant4/include/Geant4/G4VAnalysisManager.hh \
+ /opt/geant4/include/Geant4/G4AnalysisManagerState.hh \
+ /opt/geant4/include/Geant4/G4AnalysisVerbose.hh \
  /opt/geant4/include/Geant4/globals.hh \
  /opt/geant4/include/Geant4/G4ios.hh \
  /opt/geant4/include/Geant4/G4Types.hh \
@@ -233,14 +238,99 @@ CMakeFiles/AnaEx01.dir/src/SteppingAction.cc.o: \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /opt/geant4/include/Geant4/globals.hh \
- /root/AnaEx01/include/EventAction.hh \
- /opt/geant4/include/Geant4/G4UserEventAction.hh \
- /opt/geant4/include/Geant4/G4Step.hh \
+ /opt/geant4/include/Geant4/G4Threading.hh \
+ /usr/include/c++/11/condition_variable \
+ /usr/include/c++/11/bits/shared_ptr.h \
+ /usr/include/c++/11/bits/shared_ptr_base.h \
+ /usr/include/c++/11/bits/allocated_ptr.h \
+ /usr/include/c++/11/ext/concurrence.h /usr/include/c++/11/future \
+ /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
+ /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/11/bits/atomic_futex.h \
+ /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/thread \
+ /usr/include/c++/11/bits/this_thread_sleep.h \
+ /opt/geant4/include/Geant4/G4AnalysisUtilities.hh \
+ /usr/include/c++/11/memory \
+ /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
+ /usr/include/c++/11/bits/shared_ptr_atomic.h \
+ /usr/include/c++/11/backward/auto_ptr.h \
+ /usr/include/c++/11/pstl/glue_memory_defs.h /usr/include/c++/11/fstream \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+ /usr/include/c++/11/bits/fstream.tcc \
+ /opt/geant4/include/Geant4/G4VTBaseHnManager.hh \
+ /opt/geant4/include/Geant4/G4HnInformation.hh \
+ /opt/geant4/include/Geant4/G4BinScheme.hh \
+ /opt/geant4/include/Geant4/G4Fcn.hh \
+ /opt/geant4/include/Geant4/G4VAnalysisManager.icc \
+ /opt/geant4/include/Geant4/G4HnManager.hh \
+ /opt/geant4/include/Geant4/G4BaseAnalysisManager.hh \
+ /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
+ /usr/include/c++/11/bits/stl_multiset.h \
+ /opt/geant4/include/Geant4/G4NtupleBookingManager.hh \
+ /opt/geant4/include/Geant4/tools/ntuple_booking \
+ /opt/geant4/include/Geant4/tools/cids \
+ /opt/geant4/include/Geant4/tools/cid \
+ /opt/geant4/include/Geant4/tools/typedefs \
+ /opt/geant4/include/Geant4/tools/forit \
+ /opt/geant4/include/Geant4/G4NtupleBookingManager.icc \
+ /opt/geant4/include/Geant4/G4VNtupleManager.hh \
+ /opt/geant4/include/Geant4/G4VFileManager.hh \
+ /opt/geant4/include/Geant4/G4BaseFileManager.hh \
+ /opt/geant4/include/Geant4/G4VTHnFileManager.hh \
+ /opt/geant4/include/Geant4/G4TH1ToolsManager.hh \
+ /opt/geant4/include/Geant4/G4THnToolsManager.hh \
+ /opt/geant4/include/Geant4/G4THnManager.hh \
+ /opt/geant4/include/Geant4/G4THnManager.icc \
+ /opt/geant4/include/Geant4/G4AutoLock.hh \
+ /opt/geant4/include/Geant4/G4THnMessenger.hh \
+ /opt/geant4/include/Geant4/G4UImessenger.hh \
+ /opt/geant4/include/Geant4/G4UIdirectory.hh \
+ /opt/geant4/include/Geant4/G4UIcommand.hh \
+ /opt/geant4/include/Geant4/G4ApplicationState.hh \
  /opt/geant4/include/Geant4/G4ThreeVector.hh \
  /opt/geant4/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /opt/geant4/include/Geant4/CLHEP/Utility/defs.h \
  /opt/geant4/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+ /opt/geant4/include/Geant4/G4UIparameter.hh \
+ /opt/geant4/include/Geant4/G4THnToolsManager.icc \
+ /opt/geant4/include/Geant4/G4THnMessenger.icc \
+ /opt/geant4/include/Geant4/G4Tokenizer.hh \
+ /opt/geant4/include/Geant4/G4TH2ToolsManager.hh \
+ /opt/geant4/include/Geant4/G4TH3ToolsManager.hh \
+ /opt/geant4/include/Geant4/G4TP1ToolsManager.hh \
+ /opt/geant4/include/Geant4/G4TP2ToolsManager.hh \
+ /opt/geant4/include/Geant4/tools/histo/h1d \
+ /opt/geant4/include/Geant4/tools/histo/h1 \
+ /opt/geant4/include/Geant4/tools/histo/b1 \
+ /opt/geant4/include/Geant4/tools/histo/base_histo \
+ /opt/geant4/include/Geant4/tools/histo/histo_data \
+ /opt/geant4/include/Geant4/tools/histo/axes \
+ /opt/geant4/include/Geant4/tools/histo/axis \
+ /opt/geant4/include/Geant4/tools/eqT \
+ /opt/geant4/include/Geant4/tools/histo/h2d \
+ /opt/geant4/include/Geant4/tools/histo/h2 \
+ /opt/geant4/include/Geant4/tools/histo/b2 \
+ /opt/geant4/include/Geant4/tools/histo/h3d \
+ /opt/geant4/include/Geant4/tools/histo/h3 \
+ /opt/geant4/include/Geant4/tools/histo/b3 \
+ /opt/geant4/include/Geant4/tools/histo/p1d \
+ /opt/geant4/include/Geant4/tools/histo/p1 \
+ /opt/geant4/include/Geant4/tools/histo/profile_data \
+ /opt/geant4/include/Geant4/tools/histo/p2d \
+ /opt/geant4/include/Geant4/tools/histo/p2 \
+ /opt/geant4/include/Geant4/G4ToolsAnalysisManager.icc \
+ /opt/geant4/include/Geant4/G4GenericAnalysisManager.icc \
+ /opt/geant4/include/Geant4/G4GenericFileManager.hh \
+ /opt/geant4/include/Geant4/G4GenericFileManager.icc \
+ /opt/geant4/include/Geant4/globals.hh \
+ /root/AnaEx01/include/HistoManager.hh \
+ /root/AnaEx01/include/DetectorConstruction.hh \
+ /opt/geant4/include/Geant4/G4VUserDetectorConstruction.hh \
+ /root/AnaEx01/include/EventAction.hh \
+ /opt/geant4/include/Geant4/G4UserEventAction.hh \
+ /opt/geant4/include/Geant4/G4Step.hh \
  /opt/geant4/include/Geant4/G4VPhysicalVolume.hh \
  /opt/geant4/include/Geant4/geomdefs.hh \
  /opt/geant4/include/Geant4/G4RotationMatrix.hh \
@@ -262,18 +352,6 @@ CMakeFiles/AnaEx01.dir/src/SteppingAction.cc.o: \
  /opt/geant4/include/Geant4/CLHEP/Vector/Rotation.icc \
  /opt/geant4/include/Geant4/G4GeomSplitter.hh \
  /opt/geant4/include/Geant4/geomwdefs.hh \
- /opt/geant4/include/Geant4/G4AutoLock.hh \
- /opt/geant4/include/Geant4/G4Threading.hh \
- /usr/include/c++/11/condition_variable \
- /usr/include/c++/11/bits/shared_ptr.h \
- /usr/include/c++/11/bits/shared_ptr_base.h \
- /usr/include/c++/11/bits/allocated_ptr.h \
- /usr/include/c++/11/ext/concurrence.h /usr/include/c++/11/future \
- /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
- /usr/include/c++/11/bits/atomic_lockfree_defines.h \
- /usr/include/c++/11/bits/atomic_futex.h \
- /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/thread \
- /usr/include/c++/11/bits/this_thread_sleep.h \
  /opt/geant4/include/Geant4/G4VPhysicalVolume.icc \
  /opt/geant4/include/Geant4/G4StepPoint.hh \
  /opt/geant4/include/Geant4/G4Allocator.hh /usr/include/c++/11/cstddef \
@@ -299,12 +377,7 @@ CMakeFiles/AnaEx01.dir/src/SteppingAction.cc.o: \
  /opt/geant4/include/Geant4/G4NavigationLevel.icc \
  /opt/geant4/include/Geant4/G4NavigationHistoryPool.hh \
  /opt/geant4/include/Geant4/G4NavigationHistory.icc \
- /opt/geant4/include/Geant4/G4LogicalVolume.hh /usr/include/c++/11/memory \
- /usr/include/c++/11/bits/stl_raw_storage_iter.h \
- /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
- /usr/include/c++/11/bits/shared_ptr_atomic.h \
- /usr/include/c++/11/backward/auto_ptr.h \
- /usr/include/c++/11/pstl/glue_memory_defs.h \
+ /opt/geant4/include/Geant4/G4LogicalVolume.hh \
  /opt/geant4/include/Geant4/G4Region.hh \
  /opt/geant4/include/Geant4/G4Region.icc \
  /opt/geant4/include/Geant4/G4LogicalVolume.icc \
@@ -324,10 +397,7 @@ CMakeFiles/AnaEx01.dir/src/SteppingAction.cc.o: \
  /opt/geant4/include/Geant4/G4MaterialPropertyVector.hh \
  /opt/geant4/include/Geant4/G4PhysicsFreeVector.hh \
  /opt/geant4/include/Geant4/G4PhysicsVector.hh \
- /usr/include/c++/11/fstream \
- /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
- /usr/include/c++/11/bits/fstream.tcc /opt/geant4/include/Geant4/G4Log.hh \
+ /opt/geant4/include/Geant4/G4Log.hh \
  /opt/geant4/include/Geant4/G4PhysicsVectorType.hh \
  /opt/geant4/include/Geant4/G4PhysicsVector.icc \
  /opt/geant4/include/Geant4/G4MaterialTable.hh \

@@ -69,6 +69,8 @@ void EventAction::BeginOfEventAction(const G4Event* evt)
  fTrackLAbs = fTrackLGap = 0.;
  fEdepSecElectron5X0 = 0.;
  fEdepSecPhoton5X0 = 0.;
+ fLdepSecElectron = 0.;
+ fLdepSecPhoton = 0.;
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -87,6 +89,10 @@ void EventAction::EndOfEventAction(const G4Event*)
   fHistoManager->FillHisto(3, fTrackLGap);
   fHistoManager->FillHisto(4, fEdepSecElectron5X0);
   fHistoManager->FillHisto(5, fEdepSecPhoton5X0);
+  //G4cout<< "LdepSecElectron: " << fLdepSecElectron << G4endl;
+  //G4cout<< "LdepSecPhoton: " << fLdepSecPhoton << G4endl;
+  //fHistoManager->FillHisto(6, fLdepSecElectron);
+  //fHistoManager->FillHisto(7, fLdepSecPhoton);
   
   //fill ntuple
   //

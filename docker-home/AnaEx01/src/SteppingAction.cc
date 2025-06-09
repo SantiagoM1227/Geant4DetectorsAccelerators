@@ -34,6 +34,7 @@
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 #include "SteppingAction.hh"
+#include "HistoManager.hh"
 
 #include "DetectorConstruction.hh"
 #include "EventAction.hh"
@@ -43,9 +44,10 @@
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 SteppingAction::SteppingAction(DetectorConstruction* det,
-                                         EventAction* evt)
+                                         EventAction* evt,
+                                         HistoManager* histo)
 : G4UserSteppingAction(), 
-  fDetector(det), fEventAction(evt)                                         
+  fDetector(det), fEventAction(evt), fHistoManager(histo)                                 
 { }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -71,12 +73,28 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep)
   if (volume == fDetector->GetAbsorber())
   {
      fEventAction->AddAbs(edep,stepl);
-      if (aStep->GetTrack()->GetDefinition()->GetParticleName() == "e-") {
+     G4double absorberThickness = fDetector->GetAbsorberThickness();
+    
+     G4double x0 = fDetector->GetAbsorber()->GetLogicalVolume()->GetMaterial()->GetRadlen();
+     G4double x = aStep->GetPreStepPoint()->GetPosition().x() + absorberThickness/2.0;    
+     //G4double x = aStep->GetStepLength();
+     if (true /*x < 5.*x0*/)
+     {
+      if (aStep->GetTrack()->GetDefinition()->GetParticleName() == "e-") 
+      {
         fEventAction->AddEdepSecElectron5X0(edep);
-      } else if (aStep->GetTrack()->GetDefinition()->GetParticleName() == "gamma") {
+        //fEventAction->AddLdepSecElectron(x);
+        fHistoManager->FillHisto(6, x, edep);
+        
+      } 
+      else if (aStep->GetTrack()->GetDefinition()->GetParticleName() == "gamma") 
+      {
         fEventAction->AddEdepSecPhoton5X0(edep);
+        //fEventAction->AddLdepSecPhoton(x);
+        fHistoManager->FillHisto(7, x, edep);
       }
-  }
+     }
+   }
   if (volume == fDetector->GetGap())      fEventAction->AddGap(edep,stepl);
 }
 

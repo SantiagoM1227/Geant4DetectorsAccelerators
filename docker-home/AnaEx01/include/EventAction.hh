@@ -58,8 +58,12 @@ public:
   void AddGap(G4double de, G4double dl) {fEnergyGap += de; fTrackLGap += dl;};
   void AddEdepSecElectron5X0(G4double edep) { fEdepSecElectron5X0 += edep; }
   void AddEdepSecPhoton5X0(G4double edep) { fEdepSecPhoton5X0 += edep; }
+  void AddLdepSecElectron(G4double ldep) { fLdepSecElectron += ldep; }
+  void AddLdepSecPhoton(G4double ldep) { fLdepSecPhoton += ldep; }
   G4double GetEdepSecElectron5X0() const { return fEdepSecElectron5X0; }
   G4double GetEdepSecPhoton5X0() const { return fEdepSecPhoton5X0; }
+  G4double  GetLdepSecElectron() const { return fLdepSecElectron; }
+  G4double  GetLdepSecPhoton() const { return fLdepSecPhoton; }
     
 private:
    RunAction*    fRunAct;
@@ -68,8 +72,10 @@ private:
    G4double  fEnergyAbs, fEnergyGap;
    G4double  fTrackLAbs, fTrackLGap;
 
-   G4double fEdepSecElectron5X0 = 0.;
-   G4double fEdepSecPhoton5X0 = 0.;
+   G4double fEdepSecElectron5X0 ;
+   G4double fEdepSecPhoton5X0 ;
+   G4double fLdepSecElectron;
+   G4double fLdepSecPhoton;
                      
    G4int     fPrintModulo;                             
 };

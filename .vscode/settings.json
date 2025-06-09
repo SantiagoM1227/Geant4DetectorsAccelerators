@@ -10,6 +10,7 @@
         "event": "cpp",
         "point": "cpp",
         "plothist.C": "cpp",
-        "plotHisto.C": "cpp"
+        "plotHisto.C": "cpp",
+        "mesh": "cpp"
     }
 }

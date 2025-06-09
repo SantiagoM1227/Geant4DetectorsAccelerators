@@ -96,6 +96,10 @@ void HistoManager::Book()
     analysisManager->CreateH1("E2e","Electron Edep in 5X0 (GeV)", 100, 0., 10*GeV); 
     // id = 5
     analysisManager->CreateH1("E2p","Photon Edep in 5X0 (MeV)", 100, 0., 2*MeV); 
+    // id = 6
+    analysisManager->CreateH1("L2e","Electron Ldep in absorber (mm)", 50, 0., 500 *mm);
+    // id = 7
+    analysisManager->CreateH1("L2p","Photon Ldep in absorber (mm)", 50, 0., 500 *mm);
     // Create ntuples.
     // Ntuples ids are generated automatically starting from 0.
     // The start value can be changed by:

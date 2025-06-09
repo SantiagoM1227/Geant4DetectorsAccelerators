@@ -332,4 +332,5 @@ CMakeFiles/AnaEx01.dir/src/ActionInitialization.cc.o: \
  /root/AnaEx01/include/EventAction.hh \
  /opt/geant4/include/Geant4/G4UserEventAction.hh \
  /root/AnaEx01/include/SteppingAction.hh \
- /opt/geant4/include/Geant4/G4UserSteppingAction.hh
+ /opt/geant4/include/Geant4/G4UserSteppingAction.hh \
+ /root/AnaEx01/include/HistoManager.hh
