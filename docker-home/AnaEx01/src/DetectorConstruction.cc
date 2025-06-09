@@ -68,15 +68,16 @@ DetectorConstruction::DetectorConstruction()
  fDetectorMessenger(0)
 {
   // default parameter values of the calorimeter
-  fAbsorberThickness = 10.*mm;
-  fGapThickness      =  5.*mm;
-  fNbOfLayers        = 10;
+
+  fAbsorberThickness = 44.485 *cm;
+  fGapThickness      = 0.0*mm;
+  fNbOfLayers        = 1;
   fCalorSizeYZ       = 10.*cm;
   ComputeCalorParameters();
   
   // materials
   DefineMaterials();
-  SetAbsorberMaterial("G4_Pb");
+  SetAbsorberMaterial("G4_Al");
   SetGapMaterial("G4_lAr");
   
   // create commands for interactive definition of the calorimeter
@@ -105,6 +106,7 @@ G4NistManager* man = G4NistManager::Instance();
 fDefaultMaterial = man->FindOrBuildMaterial("G4_Galactic");
 man->FindOrBuildMaterial("G4_Pb");
 man->FindOrBuildMaterial("G4_lAr");
+man->FindOrBuildMaterial("G4_Al");
 
 // print table
 //
@@ -243,6 +245,10 @@ G4VPhysicalVolume* DetectorConstruction::ConstructCalorimeter()
   // Visualization attributes
   //
   fLogicWorld->SetVisAttributes (G4VisAttributes::GetInvisible());
+  G4VisAttributes* platinumVisAtt = new G4VisAttributes(G4Colour(0.9, 0.89, 0.89)); // light silvery
+  platinumVisAtt->SetVisibility(true);
+  platinumVisAtt->SetForceSolid(true);
+  fLogicAbsorber->SetVisAttributes(platinumVisAtt);
 
   G4VisAttributes* simpleBoxVisAtt= new G4VisAttributes(G4Colour(1.0,1.0,1.0));
   simpleBoxVisAtt->SetVisibility(true);

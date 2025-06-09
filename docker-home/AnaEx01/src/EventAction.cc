@@ -39,6 +39,7 @@
 #include "RunAction.hh"
 #include "HistoManager.hh"
 
+#include "G4SystemOfUnits.hh"
 #include "G4Event.hh"
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -66,6 +67,8 @@ void EventAction::BeginOfEventAction(const G4Event* evt)
  // initialisation per event
  fEnergyAbs = fEnergyGap = 0.;
  fTrackLAbs = fTrackLGap = 0.;
+ fEdepSecElectron5X0 = 0.;
+ fEdepSecPhoton5X0 = 0.;
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -82,6 +85,8 @@ void EventAction::EndOfEventAction(const G4Event*)
   fHistoManager->FillHisto(1, fEnergyGap);
   fHistoManager->FillHisto(2, fTrackLAbs);
   fHistoManager->FillHisto(3, fTrackLGap);
+  fHistoManager->FillHisto(4, fEdepSecElectron5X0);
+  fHistoManager->FillHisto(5, fEdepSecPhoton5X0);
   
   //fill ntuple
   //

@@ -68,7 +68,15 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep)
   if (aStep->GetTrack()->GetDefinition()->GetPDGCharge() != 0.)
     stepl = aStep->GetStepLength();
       
-  if (volume == fDetector->GetAbsorber()) fEventAction->AddAbs(edep,stepl);
+  if (volume == fDetector->GetAbsorber())
+  {
+     fEventAction->AddAbs(edep,stepl);
+      if (aStep->GetTrack()->GetDefinition()->GetParticleName() == "e-") {
+        fEventAction->AddEdepSecElectron5X0(edep);
+      } else if (aStep->GetTrack()->GetDefinition()->GetParticleName() == "gamma") {
+        fEventAction->AddEdepSecPhoton5X0(edep);
+      }
+  }
   if (volume == fDetector->GetGap())      fEventAction->AddGap(edep,stepl);
 }
 
