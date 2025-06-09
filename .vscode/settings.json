@@ -8,6 +8,8 @@
         "vec4": "cpp",
         "vector3": "cpp",
         "event": "cpp",
-        "point": "cpp"
+        "point": "cpp",
+        "plothist.C": "cpp",
+        "plotHisto.C": "cpp"
     }
 }
