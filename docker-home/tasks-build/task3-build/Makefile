@@ -246,6 +246,78 @@ src/DetectorConstruction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/DetectorConstruction.cc.s
 .PHONY : src/DetectorConstruction.cc.s
 
+src/EnergyTimeHit.o: src/EnergyTimeHit.cc.o
+.PHONY : src/EnergyTimeHit.o
+
+# target to build an object file
+src/EnergyTimeHit.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/EnergyTimeHit.cc.o
+.PHONY : src/EnergyTimeHit.cc.o
+
+src/EnergyTimeHit.i: src/EnergyTimeHit.cc.i
+.PHONY : src/EnergyTimeHit.i
+
+# target to preprocess a source file
+src/EnergyTimeHit.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/EnergyTimeHit.cc.i
+.PHONY : src/EnergyTimeHit.cc.i
+
+src/EnergyTimeHit.s: src/EnergyTimeHit.cc.s
+.PHONY : src/EnergyTimeHit.s
+
+# target to generate assembly for a file
+src/EnergyTimeHit.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/EnergyTimeHit.cc.s
+.PHONY : src/EnergyTimeHit.cc.s
+
+src/EnergyTimeSD.o: src/EnergyTimeSD.cc.o
+.PHONY : src/EnergyTimeSD.o
+
+# target to build an object file
+src/EnergyTimeSD.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/EnergyTimeSD.cc.o
+.PHONY : src/EnergyTimeSD.cc.o
+
+src/EnergyTimeSD.i: src/EnergyTimeSD.cc.i
+.PHONY : src/EnergyTimeSD.i
+
+# target to preprocess a source file
+src/EnergyTimeSD.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/EnergyTimeSD.cc.i
+.PHONY : src/EnergyTimeSD.cc.i
+
+src/EnergyTimeSD.s: src/EnergyTimeSD.cc.s
+.PHONY : src/EnergyTimeSD.s
+
+# target to generate assembly for a file
+src/EnergyTimeSD.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/EnergyTimeSD.cc.s
+.PHONY : src/EnergyTimeSD.cc.s
+
+src/EventAction.o: src/EventAction.cc.o
+.PHONY : src/EventAction.o
+
+# target to build an object file
+src/EventAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/EventAction.cc.o
+.PHONY : src/EventAction.cc.o
+
+src/EventAction.i: src/EventAction.cc.i
+.PHONY : src/EventAction.i
+
+# target to preprocess a source file
+src/EventAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/EventAction.cc.i
+.PHONY : src/EventAction.cc.i
+
+src/EventAction.s: src/EventAction.cc.s
+.PHONY : src/EventAction.s
+
+# target to generate assembly for a file
+src/EventAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/EventAction.cc.s
+.PHONY : src/EventAction.cc.s
+
 src/PhysicsList.o: src/PhysicsList.cc.o
 .PHONY : src/PhysicsList.o
 
@@ -342,6 +414,30 @@ src/StackingAction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/StackingAction.cc.s
 .PHONY : src/StackingAction.cc.s
 
+src/SteppingAction.o: src/SteppingAction.cc.o
+.PHONY : src/SteppingAction.o
+
+# target to build an object file
+src/SteppingAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/SteppingAction.cc.o
+.PHONY : src/SteppingAction.cc.o
+
+src/SteppingAction.i: src/SteppingAction.cc.i
+.PHONY : src/SteppingAction.i
+
+# target to preprocess a source file
+src/SteppingAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/SteppingAction.cc.i
+.PHONY : src/SteppingAction.cc.i
+
+src/SteppingAction.s: src/SteppingAction.cc.s
+.PHONY : src/SteppingAction.s
+
+# target to generate assembly for a file
+src/SteppingAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/SteppingAction.cc.s
+.PHONY : src/SteppingAction.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -364,6 +460,15 @@ help:
 	@echo "... src/DetectorConstruction.o"
 	@echo "... src/DetectorConstruction.i"
 	@echo "... src/DetectorConstruction.s"
+	@echo "... src/EnergyTimeHit.o"
+	@echo "... src/EnergyTimeHit.i"
+	@echo "... src/EnergyTimeHit.s"
+	@echo "... src/EnergyTimeSD.o"
+	@echo "... src/EnergyTimeSD.i"
+	@echo "... src/EnergyTimeSD.s"
+	@echo "... src/EventAction.o"
+	@echo "... src/EventAction.i"
+	@echo "... src/EventAction.s"
 	@echo "... src/PhysicsList.o"
 	@echo "... src/PhysicsList.i"
 	@echo "... src/PhysicsList.s"
@@ -376,6 +481,9 @@ help:
 	@echo "... src/StackingAction.o"
 	@echo "... src/StackingAction.i"
 	@echo "... src/StackingAction.s"
+	@echo "... src/SteppingAction.o"
+	@echo "... src/SteppingAction.i"
+	@echo "... src/SteppingAction.s"
 .PHONY : help
 
 

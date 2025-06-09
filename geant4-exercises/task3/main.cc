@@ -16,8 +16,9 @@
 #include <QGSP_BIC.hh>
 
 // Task 4b.1: Include the proper header to enable scoring manager
-
+#include <G4ScoringManager.hh>
 // Task 4c.3: Include the proper header to enable analysis tools
+#include "Analysis.hh"
 
 using namespace std;
 
@@ -80,7 +81,6 @@ int main(int argc, char** argv)
     }
   G4UImanager* UImanager = G4UImanager::GetUIpointer();
 
-  // Task 4b.1: You need to access the scoring manager here (or above)
 
   for (auto macro : macros)
     {
@@ -103,10 +103,9 @@ int main(int argc, char** argv)
     }
 
   delete runManager;
+ 
     
-  // Task 4c.3: Close the analysis output by uncommmenting the following lines
-  // G4AnalysisManager* man = G4AnalysisManager::Instance();
-  // man->CloseFile();
+  
 
   G4cout << "Application successfully ended.\nBye :-)" << G4endl;
 

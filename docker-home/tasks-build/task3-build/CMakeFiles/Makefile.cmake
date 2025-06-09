@@ -23,6 +23,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/root/geant4-exercises/task3/CMakeLists.txt"
   "/root/geant4-exercises/task3/macros/basic.mac"
   "/root/geant4-exercises/task3/macros/basiclong.mac"
+  "/root/geant4-exercises/task3/macros/drawSlice.mac"
+  "/root/geant4-exercises/task3/macros/scoring.mac"
   "/root/geant4-exercises/task3/macros/ui.mac"
   "/root/geant4-exercises/task3/macros/vis.mac"
   "CMakeFiles/4.0.2/CMakeCCompiler.cmake"
@@ -137,6 +139,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "macros/basic.mac"
   "macros/basiclong.mac"
+  "macros/drawSlice.mac"
+  "macros/scoring.mac"
   "macros/ui.mac"
   "macros/vis.mac"
   "CMakeFiles/CMakeDirectoryInformation.cmake"

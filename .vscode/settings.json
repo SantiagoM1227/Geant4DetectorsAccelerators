@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "calorimeter_histogram.C": "cpp",
+        "*.icc": "cpp",
+        "vec2": "cpp",
+        "vec3": "cpp",
+        "vec4": "cpp",
+        "vector3": "cpp",
+        "event": "cpp",
+        "point": "cpp"
+    }
+}

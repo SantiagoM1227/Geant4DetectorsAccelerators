@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aida SYSTEM "http://aida.freehep.org/schemas/3.2.1/aida.dtd">
+<aida version="3.2.1">
+  <implementation package="tools" version="6.3.3"/>
+  <histogram1d path="/" name="eDeps" title="Energy in absorber (MeV)">
+    <annotation>
+      <item key="axis_x.title" value=""/>
+    </annotation>
+    <axis direction="x" numberOfBins="20" min="50" max="60"/>
+    <statistics entries="0">
+      <statistic direction="x" mean="0" rms="0"/>
+    </statistics>
+    <data1d>
+    </data1d>
+  </histogram1d>
+</aida>

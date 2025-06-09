@@ -233,3 +233,41 @@ ls
 tar xzf task3a.tar.gz 
 ls
 exit
+ls
+cd tasks-build/
+ls
+cd task
+cd task3-build/
+make
+./task 
+exit
+ls
+cd tasks-build/
+ls
+cd task3-build/
+./task 
+exit
+ls
+cd ..
+exit
+ls
+cd tasks-build/
+ls
+cd task
+cd task3-build/
+./task 
+exit
+cd tasks-build/
+cd task3-build/
+./task 
+exit 
+cd tasks-build/
+cd task3-build/
+./task 
+exit
+cd tasks-build/task3-build/
+./task 
+exit
+cd tasks-build/task3-build/
+./task 
+exit

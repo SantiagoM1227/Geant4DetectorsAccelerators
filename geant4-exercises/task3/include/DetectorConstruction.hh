@@ -13,15 +13,12 @@ class G4LogicalVolume;
 class DetectorConstruction : public G4VUserDetectorConstruction
 {
 public:
-    // Main method that has to be overridden in all detectors
-    // You will edit this method in Tasks 1a & 1b
+
     G4VPhysicalVolume* Construct() override;
 
-    // Task 1c.1: Uncomment the declaration of this method
     void ConstructSDandField() override;
 
 private:
-    // An example geometry created for you to finish task 0
     void ConstructDemo(G4LogicalVolume* worldLog);
 };
 

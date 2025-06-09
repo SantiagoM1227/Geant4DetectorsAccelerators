@@ -114,10 +114,52 @@ CMakeFiles/task.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task.dir/src/DetectorConstruction.cc.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/geant4-exercises/task3/src/DetectorConstruction.cc -o CMakeFiles/task.dir/src/DetectorConstruction.cc.s
 
+CMakeFiles/task.dir/src/EnergyTimeHit.cc.o: CMakeFiles/task.dir/flags.make
+CMakeFiles/task.dir/src/EnergyTimeHit.cc.o: /root/geant4-exercises/task3/src/EnergyTimeHit.cc
+CMakeFiles/task.dir/src/EnergyTimeHit.cc.o: CMakeFiles/task.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/tasks-build/task3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/task.dir/src/EnergyTimeHit.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task.dir/src/EnergyTimeHit.cc.o -MF CMakeFiles/task.dir/src/EnergyTimeHit.cc.o.d -o CMakeFiles/task.dir/src/EnergyTimeHit.cc.o -c /root/geant4-exercises/task3/src/EnergyTimeHit.cc
+
+CMakeFiles/task.dir/src/EnergyTimeHit.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task.dir/src/EnergyTimeHit.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/geant4-exercises/task3/src/EnergyTimeHit.cc > CMakeFiles/task.dir/src/EnergyTimeHit.cc.i
+
+CMakeFiles/task.dir/src/EnergyTimeHit.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task.dir/src/EnergyTimeHit.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/geant4-exercises/task3/src/EnergyTimeHit.cc -o CMakeFiles/task.dir/src/EnergyTimeHit.cc.s
+
+CMakeFiles/task.dir/src/EnergyTimeSD.cc.o: CMakeFiles/task.dir/flags.make
+CMakeFiles/task.dir/src/EnergyTimeSD.cc.o: /root/geant4-exercises/task3/src/EnergyTimeSD.cc
+CMakeFiles/task.dir/src/EnergyTimeSD.cc.o: CMakeFiles/task.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/tasks-build/task3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/task.dir/src/EnergyTimeSD.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task.dir/src/EnergyTimeSD.cc.o -MF CMakeFiles/task.dir/src/EnergyTimeSD.cc.o.d -o CMakeFiles/task.dir/src/EnergyTimeSD.cc.o -c /root/geant4-exercises/task3/src/EnergyTimeSD.cc
+
+CMakeFiles/task.dir/src/EnergyTimeSD.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task.dir/src/EnergyTimeSD.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/geant4-exercises/task3/src/EnergyTimeSD.cc > CMakeFiles/task.dir/src/EnergyTimeSD.cc.i
+
+CMakeFiles/task.dir/src/EnergyTimeSD.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task.dir/src/EnergyTimeSD.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/geant4-exercises/task3/src/EnergyTimeSD.cc -o CMakeFiles/task.dir/src/EnergyTimeSD.cc.s
+
+CMakeFiles/task.dir/src/EventAction.cc.o: CMakeFiles/task.dir/flags.make
+CMakeFiles/task.dir/src/EventAction.cc.o: /root/geant4-exercises/task3/src/EventAction.cc
+CMakeFiles/task.dir/src/EventAction.cc.o: CMakeFiles/task.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/tasks-build/task3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/task.dir/src/EventAction.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task.dir/src/EventAction.cc.o -MF CMakeFiles/task.dir/src/EventAction.cc.o.d -o CMakeFiles/task.dir/src/EventAction.cc.o -c /root/geant4-exercises/task3/src/EventAction.cc
+
+CMakeFiles/task.dir/src/EventAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task.dir/src/EventAction.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/geant4-exercises/task3/src/EventAction.cc > CMakeFiles/task.dir/src/EventAction.cc.i
+
+CMakeFiles/task.dir/src/EventAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task.dir/src/EventAction.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/geant4-exercises/task3/src/EventAction.cc -o CMakeFiles/task.dir/src/EventAction.cc.s
+
 CMakeFiles/task.dir/src/PhysicsList.cc.o: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/src/PhysicsList.cc.o: /root/geant4-exercises/task3/src/PhysicsList.cc
 CMakeFiles/task.dir/src/PhysicsList.cc.o: CMakeFiles/task.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/tasks-build/task3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/task.dir/src/PhysicsList.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/tasks-build/task3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/task.dir/src/PhysicsList.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task.dir/src/PhysicsList.cc.o -MF CMakeFiles/task.dir/src/PhysicsList.cc.o.d -o CMakeFiles/task.dir/src/PhysicsList.cc.o -c /root/geant4-exercises/task3/src/PhysicsList.cc
 
 CMakeFiles/task.dir/src/PhysicsList.cc.i: cmake_force
@@ -131,7 +173,7 @@ CMakeFiles/task.dir/src/PhysicsList.cc.s: cmake_force
 CMakeFiles/task.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/src/PrimaryGeneratorAction.cc.o: /root/geant4-exercises/task3/src/PrimaryGeneratorAction.cc
 CMakeFiles/task.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/task.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/tasks-build/task3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/task.dir/src/PrimaryGeneratorAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/tasks-build/task3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/task.dir/src/PrimaryGeneratorAction.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/task.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/task.dir/src/PrimaryGeneratorAction.cc.o -c /root/geant4-exercises/task3/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/task.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
@@ -145,7 +187,7 @@ CMakeFiles/task.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 CMakeFiles/task.dir/src/RunAction.cc.o: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/src/RunAction.cc.o: /root/geant4-exercises/task3/src/RunAction.cc
 CMakeFiles/task.dir/src/RunAction.cc.o: CMakeFiles/task.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/tasks-build/task3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/task.dir/src/RunAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/tasks-build/task3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/task.dir/src/RunAction.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task.dir/src/RunAction.cc.o -MF CMakeFiles/task.dir/src/RunAction.cc.o.d -o CMakeFiles/task.dir/src/RunAction.cc.o -c /root/geant4-exercises/task3/src/RunAction.cc
 
 CMakeFiles/task.dir/src/RunAction.cc.i: cmake_force
@@ -159,7 +201,7 @@ CMakeFiles/task.dir/src/RunAction.cc.s: cmake_force
 CMakeFiles/task.dir/src/StackingAction.cc.o: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/src/StackingAction.cc.o: /root/geant4-exercises/task3/src/StackingAction.cc
 CMakeFiles/task.dir/src/StackingAction.cc.o: CMakeFiles/task.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/tasks-build/task3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/task.dir/src/StackingAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/tasks-build/task3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/task.dir/src/StackingAction.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task.dir/src/StackingAction.cc.o -MF CMakeFiles/task.dir/src/StackingAction.cc.o.d -o CMakeFiles/task.dir/src/StackingAction.cc.o -c /root/geant4-exercises/task3/src/StackingAction.cc
 
 CMakeFiles/task.dir/src/StackingAction.cc.i: cmake_force
@@ -170,15 +212,33 @@ CMakeFiles/task.dir/src/StackingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task.dir/src/StackingAction.cc.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/geant4-exercises/task3/src/StackingAction.cc -o CMakeFiles/task.dir/src/StackingAction.cc.s
 
+CMakeFiles/task.dir/src/SteppingAction.cc.o: CMakeFiles/task.dir/flags.make
+CMakeFiles/task.dir/src/SteppingAction.cc.o: /root/geant4-exercises/task3/src/SteppingAction.cc
+CMakeFiles/task.dir/src/SteppingAction.cc.o: CMakeFiles/task.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/tasks-build/task3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/task.dir/src/SteppingAction.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task.dir/src/SteppingAction.cc.o -MF CMakeFiles/task.dir/src/SteppingAction.cc.o.d -o CMakeFiles/task.dir/src/SteppingAction.cc.o -c /root/geant4-exercises/task3/src/SteppingAction.cc
+
+CMakeFiles/task.dir/src/SteppingAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task.dir/src/SteppingAction.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/geant4-exercises/task3/src/SteppingAction.cc > CMakeFiles/task.dir/src/SteppingAction.cc.i
+
+CMakeFiles/task.dir/src/SteppingAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task.dir/src/SteppingAction.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/geant4-exercises/task3/src/SteppingAction.cc -o CMakeFiles/task.dir/src/SteppingAction.cc.s
+
 # Object files for target task
 task_OBJECTS = \
 "CMakeFiles/task.dir/main.cc.o" \
 "CMakeFiles/task.dir/src/ActionInitialization.cc.o" \
 "CMakeFiles/task.dir/src/DetectorConstruction.cc.o" \
+"CMakeFiles/task.dir/src/EnergyTimeHit.cc.o" \
+"CMakeFiles/task.dir/src/EnergyTimeSD.cc.o" \
+"CMakeFiles/task.dir/src/EventAction.cc.o" \
 "CMakeFiles/task.dir/src/PhysicsList.cc.o" \
 "CMakeFiles/task.dir/src/PrimaryGeneratorAction.cc.o" \
 "CMakeFiles/task.dir/src/RunAction.cc.o" \
-"CMakeFiles/task.dir/src/StackingAction.cc.o"
+"CMakeFiles/task.dir/src/StackingAction.cc.o" \
+"CMakeFiles/task.dir/src/SteppingAction.cc.o"
 
 # External object files for target task
 task_EXTERNAL_OBJECTS =
@@ -186,10 +246,14 @@ task_EXTERNAL_OBJECTS =
 task: CMakeFiles/task.dir/main.cc.o
 task: CMakeFiles/task.dir/src/ActionInitialization.cc.o
 task: CMakeFiles/task.dir/src/DetectorConstruction.cc.o
+task: CMakeFiles/task.dir/src/EnergyTimeHit.cc.o
+task: CMakeFiles/task.dir/src/EnergyTimeSD.cc.o
+task: CMakeFiles/task.dir/src/EventAction.cc.o
 task: CMakeFiles/task.dir/src/PhysicsList.cc.o
 task: CMakeFiles/task.dir/src/PrimaryGeneratorAction.cc.o
 task: CMakeFiles/task.dir/src/RunAction.cc.o
 task: CMakeFiles/task.dir/src/StackingAction.cc.o
+task: CMakeFiles/task.dir/src/SteppingAction.cc.o
 task: CMakeFiles/task.dir/build.make
 task: /opt/geant4/lib/libG4Tree.so
 task: /opt/geant4/lib/libG4FR.so
@@ -232,7 +296,7 @@ task: /opt/geant4/lib/libG4global.so
 task: /opt/geant4/lib/libG4clhep.so
 task: /opt/geant4/lib/libG4ptl.so.3.0.0
 task: CMakeFiles/task.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/tasks-build/task3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable task"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/tasks-build/task3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable task"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/task.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

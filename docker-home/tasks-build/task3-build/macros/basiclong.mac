@@ -2,6 +2,12 @@
 # Better not to try it with the visualization on.
 #
 # Run it using "./task macros/basiclong.mac"
+/run/numberOfThreads 1
 /run/initialize
-/run/beamOn 10000
 
+# Set GPS position
+/gps/pos/type Point
+/gps/pos/centre -10 0 0 cm
+
+# Now run
+/run/beamOn 1000

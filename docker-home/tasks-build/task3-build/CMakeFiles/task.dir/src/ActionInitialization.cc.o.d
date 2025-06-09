@@ -366,4 +366,9 @@ CMakeFiles/task.dir/src/ActionInitialization.cc.o: \
  /opt/geant4/include/Geant4/G4StepPoint.icc \
  /opt/geant4/include/Geant4/G4TrackVector.hh \
  /opt/geant4/include/Geant4/G4Step.icc \
- /opt/geant4/include/Geant4/G4Track.hh
+ /opt/geant4/include/Geant4/G4Track.hh \
+ /root/geant4-exercises/task3/include/SteppingAction.hh \
+ /opt/geant4/include/Geant4/G4UserSteppingAction.hh \
+ /root/geant4-exercises/task3/include/EventAction.hh \
+ /opt/geant4/include/Geant4/G4UserEventAction.hh \
+ /opt/geant4/include/Geant4/globals.hh

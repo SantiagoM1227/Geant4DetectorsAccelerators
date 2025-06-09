@@ -395,4 +395,17 @@ CMakeFiles/task.dir/src/DetectorConstruction.cc.o: \
  /opt/geant4/include/Geant4/G4UIdirectory.hh \
  /opt/geant4/include/Geant4/G4UIcommand.hh \
  /opt/geant4/include/Geant4/G4ApplicationState.hh \
- /opt/geant4/include/Geant4/G4UIparameter.hh
+ /opt/geant4/include/Geant4/G4UIparameter.hh \
+ /opt/geant4/include/Geant4/G4MultiFunctionalDetector.hh \
+ /opt/geant4/include/Geant4/G4PSEnergyDeposit.hh \
+ /opt/geant4/include/Geant4/G4VPrimitivePlotter.hh \
+ /opt/geant4/include/Geant4/G4VPrimitiveScorer.hh \
+ /opt/geant4/include/Geant4/G4MultiFunctionalDetector.hh \
+ /opt/geant4/include/Geant4/G4THitsMap.hh \
+ /opt/geant4/include/Geant4/G4THitsCollection.hh \
+ /root/geant4-exercises/task3/include/EnergyTimeSD.hh \
+ /opt/geant4/include/Geant4/G4VSensitiveDetector.hh \
+ /root/geant4-exercises/task3/include/EnergyTimeHit.hh \
+ /opt/geant4/include/Geant4/G4VHit.hh \
+ /opt/geant4/include/Geant4/G4THitsMap.hh \
+ /opt/geant4/include/Geant4/G4ThreeVector.hh

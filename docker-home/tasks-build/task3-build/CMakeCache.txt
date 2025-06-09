@@ -227,6 +227,15 @@ EXPAT_LIBRARY_DEBUG:FILEPATH=EXPAT_LIBRARY_DEBUG-NOTFOUND
 //Path to a library.
 EXPAT_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libexpat.so
 
+//No help, variable specified on the command line.
+GEANT4_USE_G4TOOLS:UNINITIALIZED=ON
+
+//No help, variable specified on the command line.
+GEANT4_USE_GDML:UNINITIALIZED=ON
+
+//No help, variable specified on the command line.
+GEANT4_USE_ROOT:UNINITIALIZED=ON
+
 //The directory containing a CMake configuration file for Geant4.
 Geant4_DIR:PATH=/opt/geant4/lib/cmake/Geant4
 

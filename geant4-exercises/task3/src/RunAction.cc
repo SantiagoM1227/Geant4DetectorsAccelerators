@@ -3,8 +3,8 @@
 #include <G4Electron.hh>
 #include <G4AccumulableManager.hh>
 #include <G4SystemOfUnits.hh>
-
-// Task 4c.3: Include the necessary Analysis.hh
+//#include "Analysis.hh"
+#include "G4AnalysisManager.hh"
 
 RunAction::RunAction() :
   G4UserRunAction(),
@@ -22,29 +22,33 @@ RunAction::RunAction() :
   accumulableManager->RegisterAccumulable(fAverageElectronEnergy);
   accumulableManager->RegisterAccumulable(fTotalTrackLength);
   
-  // Task 4c.3: Uncomment the following 4 lines to enable analysis.
-  /* G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
-  analysisManager->SetVerboseLevel(1);
-  analysisManager->SetFirstNtupleId(1);
-  analysisManager->SetFirstHistoId(1); */
-
-  // Create histogram to be used in 4c
-  // Task 4c.3: Create histogram with 20 bins, with limits of 50 and 60 cm
-  // (i.e. each bin will correspond to one layer of the callorimeter)
-
-  // Task 4d.3: Create ntuple containing 5 double fields:
-  //   EnergyDeposit, Time, X, Y & Z
-
-  // Task 4c.3: Open file task (extension will be added automatically)
-  // analysisManager->OpenFile("task4");  
 }
 
 
-void RunAction::BeginOfRunAction(const G4Run*)
-{
+void RunAction::BeginOfRunAction(const G4Run* run)
+{ 
   // Reset all accumulables to their initial values
   G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
-  accumulableManager->Reset();
+  accumulableManager->Reset(); 
+
+
+  auto* analysisManager = G4AnalysisManager::Instance();
+  analysisManager->SetVerboseLevel(2);
+  std::string runnumber = std::to_string( run->GetRunID() );
+  G4String fileName = "Run" + runnumber + ".csv"; //select format
+
+  G4cout << "Opening file..." << G4endl;
+  analysisManager->OpenFile(fileName);
+  G4cout << "File opened" << G4endl;
+
+
+  analysisManager->CreateH1("Edep","Energy deposit",100,0.*MeV,10*GeV);
+  analysisManager->def
+
+  analysisManager->CreateNtuple("Ntuple", "Ntuple");
+  analysisManager->CreateNtupleDColumn("Energy");
+  analysisManager->CreateNtupleDColumn("Position");
+  analysisManager->FinishNtuple();
 }
 
 void RunAction::EndOfRunAction(const G4Run* run)
@@ -59,8 +63,16 @@ void RunAction::EndOfRunAction(const G4Run* run)
   G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
   accumulableManager->Merge();
 
+  auto* analysisManager = G4AnalysisManager::Instance();
+
+
   if (IsMaster())
-  {
+  { 
+    G4cout << "Writing file..." << G4endl;
+    analysisManager->Write();
+    G4cout << "Closing file..." << G4endl;
+    analysisManager->CloseFile();
+    G4cout << "File closed" << G4endl;
     G4cout
      << "\n--------------------End of Global Run-----------------------"
      << " \n The run was " << nofEvents << " events " << G4endl;
@@ -89,14 +101,13 @@ void RunAction::EndOfRunAction(const G4Run* run)
      {
         // Probably not implemented (becomes relevant in 4a.2). Keep quiet.
      }
+      
   }
 }
 
 RunAction::~RunAction()
 {
-    // Task 4c.3: Uncomment the following 2 lines to enable analysis.
-    /* G4AnalysisManager* man = G4AnalysisManager::Instance();
-    man->Write(); */
+  
 }
 
 void RunAction::AddSecondary(const G4ParticleDefinition* particle,
@@ -115,7 +126,9 @@ void RunAction::AddSecondary(const G4ParticleDefinition* particle,
   return;
 }
 
-void RunAction::AddTrackLength(G4double /*trackLength*/)
+void RunAction::AddTrackLength(G4double trackLength)
 {
-    // Task 4a.2: Add the track length to the appropriate parameter
+    fTotalTrackLength += trackLength;
+    return;
 }
+    
