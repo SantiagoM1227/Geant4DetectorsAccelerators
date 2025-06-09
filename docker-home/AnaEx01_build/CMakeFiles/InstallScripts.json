@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/root/AnaEx01_build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
