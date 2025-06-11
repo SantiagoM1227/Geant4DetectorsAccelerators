@@ -78,7 +78,7 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep)
      G4double x0 = fDetector->GetAbsorber()->GetLogicalVolume()->GetMaterial()->GetRadlen();
      G4double x = aStep->GetPreStepPoint()->GetPosition().x() + absorberThickness/2.0;    
      //G4double x = aStep->GetStepLength();
-     if (*x < 5.*x0)
+     if (x < 5.*x0)
      {
       if (aStep->GetTrack()->GetDefinition()->GetParticleName() == "e-") 
       {
