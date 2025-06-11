@@ -85,21 +85,21 @@ void HistoManager::Book()
     // analysisManager->SetFirstHistoId(1);
 
     // id = 0
-    analysisManager->CreateH1("EAbs","Edep in absorber (Gev)", 100, 0., 10*GeV);
+    analysisManager->CreateH1("EAbs","Edep in absorber (Gev)", 100, 0., 25*GeV);
     // id = 1
     analysisManager->CreateH1("EGap","Edep in gap (GeV)", 100, 0., 10*GeV);
     // id = 2
-    analysisManager->CreateH1("LAbs","trackL in absorber (mm)", 100, 0., 1*m);
+    analysisManager->CreateH1("LAbs","trackL in absorber (mm)", 100, 0., 10*cm);
     // id = 3
     analysisManager->CreateH1("LGap","trackL in gap (mm)", 100, 0., 50*cm);
     // id = 4
     analysisManager->CreateH1("E2e","Electron Edep in 5X0 (GeV)", 100, 0., 10*GeV); 
     // id = 5
-    analysisManager->CreateH1("E2p","Photon Edep in 5X0 (MeV)", 100, 0., 2*MeV); 
+    analysisManager->CreateH1("E2p","Photon Edep in 5X0 (MeV)", 100, 0., 5*MeV); 
     // id = 6
-    analysisManager->CreateH1("L2e","Electron Ldep in absorber (mm)", 50, 0., 500 *mm);
+    analysisManager->CreateH1("L2e","Electron Ldep in absorber (mm)", 50, 0., 100 *mm);
     // id = 7
-    analysisManager->CreateH1("L2p","Photon Ldep in absorber (mm)", 50, 0., 500 *mm);
+    analysisManager->CreateH1("L2p","Photon Ldep in absorber (mm)", 50, 0., 100 *mm);
     // Create ntuples.
     // Ntuples ids are generated automatically starting from 0.
     // The start value can be changed by:
