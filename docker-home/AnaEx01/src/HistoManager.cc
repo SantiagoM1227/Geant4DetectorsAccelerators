@@ -181,7 +181,7 @@ void HistoManager::PrintStatistic()
   G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
 
   G4cout << "\n ----> print histograms statistic \n" << G4endl;
-  for ( G4int i=0; i<analysisManager->GetNofH1s(); ++i ) {
+  for ( G4int i=0; i<8/*analysisManager->GetNofH1s()*/; ++i ) {
     G4String name = analysisManager->GetH1Name(i);
     auto h1 = analysisManager->GetH1(i);
 
