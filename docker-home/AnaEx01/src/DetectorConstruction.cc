@@ -69,7 +69,7 @@ DetectorConstruction::DetectorConstruction()
 {
   // default parameter values of the calorimeter
 
-  fAbsorberThickness = 44.485 *cm;
+  fAbsorberThickness = 10 *cm;
   fGapThickness      = 0.0*mm;
   fNbOfLayers        = 1;
   fCalorSizeYZ       = 10.*cm;
@@ -77,7 +77,7 @@ DetectorConstruction::DetectorConstruction()
   
   // materials
   DefineMaterials();
-  SetAbsorberMaterial("G4_Al");
+  SetAbsorberMaterial("G4_CsI");
   SetGapMaterial("G4_lAr");
   
   // create commands for interactive definition of the calorimeter
@@ -107,6 +107,7 @@ fDefaultMaterial = man->FindOrBuildMaterial("G4_Galactic");
 man->FindOrBuildMaterial("G4_Pb");
 man->FindOrBuildMaterial("G4_lAr");
 man->FindOrBuildMaterial("G4_Al");
+man->FindOrBuildMaterial("G4_CsI");
 
 // print table
 //
