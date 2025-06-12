@@ -72,7 +72,7 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep)
       
   if (volume == fDetector->GetAbsorber())
   {
-     fEventAction->AddAbs(edep,stepl);
+     
      G4double absorberThickness = fDetector->GetAbsorberThickness();
     
      G4double x0 = fDetector->GetAbsorber()->GetLogicalVolume()->GetMaterial()->GetRadlen();
@@ -80,6 +80,7 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep)
      //G4double x = aStep->GetStepLength();
      if (x < 5.*x0)
      {
+       fEventAction->AddAbs(edep,stepl);
       if (aStep->GetTrack()->GetDefinition()->GetParticleName() == "e-") 
       {
         fEventAction->AddEdepSecElectron5X0(edep);
